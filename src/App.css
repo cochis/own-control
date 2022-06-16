@@ -1,8 +1,12 @@
 .App {
-  text-align: center;
+  background-color: #f5f6f6;
+    color: #4d4d4d;
+    font-family: Open Sans,Verdana,sans-serif;
+    font-weight: 400;
+    margin: 0; 
 }
 
-.App-logo {
+.App  {
   height: 40vmin;
   pointer-events: none;
 }

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&display=swap');
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+.logoHome {
+    width: 350px;
+}
+.center {
+    margin: auto;
+    text-align:center;
+}
+
+.lh-42{
+    line-height: 42px;
+}
+.img-carrusel{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 320px;
+}
+
+.noBorder{
+    border:none !important;
+}
+
+.imgCard{
+    width:250px;
+    height:250px;
+}
+
+.divider{
+    border-top:3px solid red;
+}
+.subtitle{
+    width:80px;
+}
+.circle {
+    border-radius:100%;
+}
+
+.titleH{
+    min-height: 50px;
+}
+
+.end{
+    margin-bottom: 250px;
+}
+.pointer{
+    cursor:pointer;
+}
+.h100 {
+    height:60px;
+}
+.steps-form-login {
+  background: #fff;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  border-radius: 18px;
+  box-shadow: 8px 8px 24px #ccc;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.steps-form {
+  background: #fff;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  border-radius: 18px;
+  box-shadow: 8px 8px 24px #ccc;
+  max-width: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.fields-container {
+  padding: 24px 24px 40px;
+  width: 100%;
+}
+
+.steps-form .field {
+  margin-bottom: 16px;
+}
+
+.steps-form .field input {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 100%;
+  height: 48px;
+  padding: 8px;
+  font-size: 14px;
+}
+.steps-form .field select {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 100%;
+  height: 48px;
+  padding: 8px;
+  font-size: 14px;
+}
+.steps-form .field textarea {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 100%;
+  height: 48px;
+  padding: 8px;
+  font-size: 14px;
+  height: 8em;
+  resize: none;
+}
+
+
+.button {
+  /* background: teal; */
+  border: 0;
+  padding: 8px;
+  /* color: #fff; */
+  border-radius: 40px;
+  width: 100%;
+  padding: 16px;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.step-guide {
+  color: #666;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+.fl{
+    float: left;
+}
+
+.mb25 {
+      margin-bottom: 25px;
+}
+
+.mr25{
+    margin-right: 25px;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+}
+.form-check-input{
+    width: 50px !important;
+}
+
+.error {
+  color:red;
+  font-size: 12px;
+  margin: auto;
+}
+.noItems {
+  list-style: none;
+}
+
+.mt-25{
+  margin-top: 25px;
+}
+.radio{
+  line-height: 55px;
+    margin-left: 10px;
+}
